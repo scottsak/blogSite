@@ -4,7 +4,9 @@
 
     <%posts.forEach(function(post){%>
 
-      <%console.log(posts[i].title);%>
+      <h1><%=post.title%></h1>
+      <p><%=post.body%></p>
+
     <%});%>
 
 <%-include('partials/footer.ejs')-%>
