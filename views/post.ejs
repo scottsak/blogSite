@@ -1,4 +1,11 @@
-<%-include('partials/header.ejs')-%>
-<h1><%=postInfo.title%></h1>
-<p><%=postInfo.body%></p>
-<%-include('partials/footer.ejs')-%>
+
+<%- include("partials/header"); -%>
+
+
+<h1><%=title%></h1>
+<p><%=content%></p>
+
+
+
+<%- include("partials/footer"); -%>
+
