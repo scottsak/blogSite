@@ -16,6 +16,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
+//connects to db
 // mongoose.connect("mongodb+srv://scottsak:February@cluster0.wld40.mongodb.net/?retryWrites=true&w=majority/blogDB", {useNewUrlParser: true});
 mongoose.connect("'mongodb+srv://scottsak:Feb!2193803@cluster0.w3za4.mongodb.net/Blog", {useNewUrlParser: true});
 // mongoose.connect("mongodb+srv://scottsak:Feb2193803!@cluster0.oppf4xh.mongodb.net/Blog", {useNewUrlParser: true});
